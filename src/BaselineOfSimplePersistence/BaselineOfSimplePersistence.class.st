@@ -36,7 +36,7 @@ BaselineOfSimplePersistence >> baseline: spec [
 	spec for: #common do: [
 		spec
 			baseline: 'Magritte' with: [
-				spec repository: 'github://MatFluor/magritte:Seaside' ];
+				spec repository: 'github://MatFluor/magritte:Seaside/source' ];
 			package: 'SimplePersistence-Core' with: [
 				spec requires: #('Magritte' "for browser"). ];
 			package: 'SimplePersistence-Tests' with: [
